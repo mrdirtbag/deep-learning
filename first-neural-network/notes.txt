@@ -1,0 +1,30 @@
+# these tests were done to find optimal number of
+#     hidden nodes and learning rate
+
+iterations = 1000
+learning_rate = 1.5
+hidden_nodes = 10
+output_nodes = 1
+Progress: 99.9% ... Training loss: 0.208 ... Validation loss: 0.379
+
+
+learning_rate = 1.5
+hidden_nodes = 9
+Progress: 99.9% ... Training loss: 0.093 ... Validation loss: 0.192
+
+learning_rate = 1.5
+hidden_nodes = 8
+Progress: 99.9% ... Training loss: 0.107 ... Validation loss: 0.202
+
+learning_rate = 2
+hidden_nodes = 9
+Progress: 99.9% ... Training loss: 0.714 ... Validation loss: 1.181
+
+learning_rate = 1.75
+hidden_nodes = 9
+Progress: 99.9% ... Training loss: 0.190 ... Validation loss: 0.384
+
+learning_rate = 1.25
+hidden_nodes = 9
+Progress: 99.9% ... Training loss: 0.103 ... Validation loss: 0.204
+
